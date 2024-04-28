@@ -29,4 +29,8 @@ class PrimeFactorsTest {
         assertEquals(Arrays.asList(3), primeFactor.of(3));
     }
 
+    @Test
+    public void testPrimefactorOf4() {
+        assertEquals(Arrays.asList(2, 2), primeFactor.of(4));
+    }
 }
